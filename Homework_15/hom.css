@@ -1,0 +1,402 @@
+body{
+    background-color: #3e3b4a;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1021px;
+    margin: 70px 0 78px;
+}
+.container-1 p{
+    color: #898691;
+    font-size: 10px;
+    font-weight: 400;
+}
+.menu{
+    background: url(jpg/burger.png) no-repeat left center;
+    padding-left: 30px;   
+}
+.header-logo{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.header-logo p{
+    font-size: 10px;
+    font-weight: 600;
+    color: #797681;
+    margin: 0;
+}
+.search{
+    background: url(jpg/search\ копия.png) no-repeat right center;
+    padding-right: 30px;
+}
+
+/*container-2*/
+
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1021px;
+    height: 515px;
+    background: url(jpg/лампы.jpg) no-repeat;
+}
+.home{
+    font-size: 10px;
+    margin-top: 40px;
+    margin-left: 41px;
+    color: #ffc7b0;
+    font-weight: 200;
+}
+.title{
+    margin-top: 28px;
+    margin-left: 41px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.text{
+    margin-left: 41px;
+    font-size: 27px;
+    color: #ffffff;
+    font-weight: 100px;
+}
+.button{
+    margin-left: 41px;
+    margin-top: 80px;
+}
+.button a{
+    border: 3px solid #ffe18f;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 126px;
+    height: 41px;
+    display: block;
+    text-align: center;
+    line-height: 41px;
+    font-weight: 200;
+}
+
+/*container-3*/
+
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1021px;
+    height: 485px;
+    margin-top: 20px;
+}
+.box1{
+    background: url(jpg/наушник.png) no-repeat right top;
+    background-color: #75bbc8;
+    width: 623px;
+    height: 485px;
+}
+.ACCESSORIES{
+    font-size: 10px;
+    margin-top: 35px;
+    margin-left: 41px;
+    color: #ffc7b0;
+    font-weight: 200;
+}
+.container-3-box1-title{
+    margin-top: 25px;
+    margin-left: 41px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.container-3-text{
+    margin-left: 41px;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 100px;
+}
+.button-2{
+    margin-left: 41px;
+    margin-top: 195px;
+}
+.button-2 a{
+    border: 3px solid #ffe18f;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 126px;
+    height: 41px;
+    display: block;
+    text-align: center;
+    line-height: 41px;
+    font-weight: 200;
+}
+.box2{
+    background-color: #eb7b61;
+    width: 380px;
+    height: 485px;
+    text-align: center;
+}
+.container-3-box2-title{
+    font-size: 33px;
+    margin-top: 80px;
+    color: #ffffff;
+}
+.container-3-box2-text{
+    color: #ffffff;
+}
+.container-3-box2-text p{
+    margin: 0;
+}
+input{
+   border: 3px solid #ffd9d1;
+   color: #ffd9d1;
+   background-color: #eb7b61;
+   text-align: center;
+   width: 275px;
+   height: 42px;
+   text-transform: uppercase;
+}
+.button-3{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.button-3 a{
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background: #66689c;   
+    width: 285px;
+    height: 42px;
+    display: block;
+    line-height: 42px;
+}
+.container-3-box2-text-button{
+    margin-top: 31px;
+    color: #ffffff;
+}
+
+/*container-4*/
+
+.container-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1021px;
+    height: 420px;
+    margin-top: 20px;
+}
+
+.box3{
+    width: 260px;
+    height: 420px;
+    margin-right: 20px;
+    background: url(jpg/целый\ фотик.jpg) no-repeat;
+}
+.CAMERAS{
+    font-size: 10px;
+    margin-top: 35px;
+    text-align: center;
+    color: #ffc7b0;
+    font-weight: 200;
+}
+.container-4-box3-title{
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 300px;
+}
+.button-4{
+    margin-left: 85px;
+}
+.button-4 a{
+    background-color: #ffe18e;
+    font-size: 14px;
+    color: #3d3c4a;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 95px;
+    height: 43px;
+    display: block;
+    text-align: center;
+    line-height: 43px;
+    font-weight: 200;
+}
+
+.box4{
+    width: 260px;
+    height: 420px;
+    margin-right: 20px;
+    background: url(jpg/телеон.jpg) no-repeat;
+}
+.SOUND{
+    font-size: 10px;
+    margin-top: 35px;
+    text-align: center;
+    color: #ffc7b0;
+    font-weight: 200;
+}
+.container-4-box4-title{
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    margin: 130px 0 110px;
+}
+.button-5{
+    margin-left: 85px;
+}
+.button-5 a{
+    background-color: #ffe18e;
+    font-size: 14px;
+    color: #3d3c4a;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 95px;
+    height: 43px;
+    display: block;
+    text-align: center;
+    line-height: 43px;
+    font-weight: 200;
+}
+
+.box5{
+    width: 460px;
+    height: 420px;
+    background: url(jpg/foto.png) no-repeat right;
+    background-color: #1ab467;
+}
+.CAMERAS-left{
+    font-size: 10px;
+    margin: 35px 0 0 43px;
+    color: #ffc7b0;
+    font-weight: 200;
+}
+.container-4-box5-title{
+    font-size: 25px;
+    color: #ffffff;
+    margin: 20px 0 23px 43px;
+}
+.container-4-box5-text{
+    font-size: 18px;
+    color: #ffffff;
+    margin: 26px 0 188px 43px; 
+}
+.button-6{
+margin-left: 41px;
+margin-top: 80px;
+}
+.button-6 a{
+border: 3px solid #ffe18f;
+font-size: 14px;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+width: 126px;
+height: 41px;
+display: block;
+text-align: center;
+line-height: 41px;
+font-weight: 200;
+}
+
+/*container-5*/
+.container-5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1021px;
+    margin: 60px 0 72px;
+}
+.Copyright{
+    color: #898691;
+}   
+.twitter{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+/*
+body{
+
+    background-color: #3e3b4a;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content:center;
+}
+#header{
+    margin-top: 8vh;
+    width: 81.03vw; 
+}
+
+
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.menu{
+    background: url(jpg/меню.jpg) no-repeat left center;
+    color: #898691;
+    font-size: 2.5vh;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    font-size: 6.5vh;
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header-logo p{
+    font-size: 2.5vh;
+    margin: 0.5vh;
+    font-weight: 400;
+    color: #797681;
+}
+.search{
+    background: url(jpg/поиск.jpg) no-repeat right center;
+    color: #898691;
+    font-size: 2.5vh;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/*Content
+.container-2{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    border: 1px solid white;
+    background: url(jpg/лампы.jpg);
+    
+}
+*/
