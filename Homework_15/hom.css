@@ -1,19 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/*flex-basis*/
+
 body{
     background-color: #3e3b4a;
-    max-height: 100%;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content:center;
-    font-family: Arial, Helvetica, sans-serif;
+    align-content:center; 
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    width: 1021px;
+    clear: both;
 }
 .container-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1021px;
+    max-width: 1021px;
     margin: 70px 0 78px;
+    font-weight: bold;
+    font-family: open sans;
 }
 .container-1 p{
     color: #898691;
@@ -23,24 +34,28 @@ body{
 .menu{
     background: url(jpg/burger.png) no-repeat left center;
     padding-left: 30px;   
+    font-size: 12px;
 }
 .header-logo{
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 48px;
+    
 }
 .header-logo p{
     font-size: 10px;
     font-weight: 600;
     color: #797681;
     margin: 0;
+    font-size: 13px;
+    
 }
 .search{
     background: url(jpg/search\ копия.png) no-repeat right center;
     padding-right: 30px;
+    font-size: 12px;
 }
 
 /*container-2*/
@@ -50,7 +65,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
-    width: 1021px;
+    max-width: 1021px;
     height: 515px;
     background: url(jpg/лампы.jpg) no-repeat;
 }
@@ -59,24 +74,28 @@ body{
     margin-top: 40px;
     margin-left: 41px;
     color: #ffc7b0;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: open sans;
 }
 .title{
     margin-top: 28px;
     margin-left: 41px;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 72px;
     color: #ffffff;
+    font-weight: bold;
+    font-family: open sans;
 }
 .text{
     margin-left: 41px;
-    font-size: 27px;
+    font-size: 36px;
     color: #ffffff;
     font-weight: 100px;
 }
 .button{
     margin-left: 41px;
-    margin-top: 80px;
+    font-weight: bold;
+    font-family: open sans;
 }
 .button a{
     border: 3px solid #ffe18f;
@@ -98,7 +117,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1021px;
+    max-width: 1021px;
     height: 485px;
     margin-top: 20px;
 }
@@ -109,32 +128,36 @@ body{
     height: 485px;
 }
 .ACCESSORIES{
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 35px;
     margin-left: 41px;
     color: #ffc7b0;
-    font-weight: 200;
+    font-weight: bold;
+    font-family: open sans;
 }
 .container-3-box1-title{
     margin-top: 25px;
     margin-left: 41px;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 48px;
     color: #ffffff;
+    font-weight: bold;
+    font-family: open sans;
 }
 .container-3-text{
     margin-left: 41px;
-    font-size: 17px;
+    font-size: 24px;
     color: #ffffff;
     font-weight: 100px;
 }
 .button-2{
     margin-left: 41px;
-    margin-top: 195px;
+    margin-top: 180px;
+    font-weight: bold;
+    font-family: open sans;
 }
 .button-2 a{
     border: 3px solid #ffe18f;
-    font-size: 14px;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -152,11 +175,12 @@ body{
     text-align: center;
 }
 .container-3-box2-title{
-    font-size: 33px;
+    font-size: 48px;
     margin-top: 80px;
     color: #ffffff;
 }
 .container-3-box2-text{
+    font-size: 24px;
     color: #ffffff;
 }
 .container-3-box2-text p{
@@ -170,13 +194,17 @@ input{
    width: 275px;
    height: 42px;
    text-transform: uppercase;
+   font-weight: bold;
+   font-family: open sans;
 }
 .button-3{
     margin-left: 50px;
     margin-top: 20px;
+    font-weight: bold;
+    font-family: open sans;
 }
 .button-3 a{
-    font-size: 15px;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -186,10 +214,14 @@ input{
     height: 42px;
     display: block;
     line-height: 42px;
+    font-weight: bold;
+    font-family: open sans;
 }
 .container-3-box2-text-button{
+    font-size: 14px;
     margin-top: 31px;
     color: #ffffff;
+    font-family: open sans;
 }
 
 /*container-4*/
@@ -198,7 +230,7 @@ input{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1021px;
+    max-width: 1021px;
     height: 420px;
     margin-top: 20px;
 }
@@ -208,16 +240,18 @@ input{
     height: 420px;
     margin-right: 20px;
     background: url(jpg/целый\ фотик.jpg) no-repeat;
+    font-weight: bold;
+    font-family: open sans;
 }
 .CAMERAS{
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 35px;
     text-align: center;
     color: #ffc7b0;
     font-weight: 200;
 }
 .container-4-box3-title{
-    font-size: 25px;
+    font-size: 36px;
     text-align: center;
     color: #ffffff;
     line-height: 300px;
@@ -227,7 +261,7 @@ input{
 }
 .button-4 a{
     background-color: #ffe18e;
-    font-size: 14px;
+    font-size: 20px;
     color: #3d3c4a;
     text-decoration: none;
     text-transform: uppercase;
@@ -236,7 +270,7 @@ input{
     display: block;
     text-align: center;
     line-height: 43px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .box4{
@@ -244,26 +278,28 @@ input{
     height: 420px;
     margin-right: 20px;
     background: url(jpg/телеон.jpg) no-repeat;
+    font-weight: bold;
+    font-family: open sans;
 }
 .SOUND{
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 35px;
     text-align: center;
     color: #ffc7b0;
     font-weight: 200;
 }
 .container-4-box4-title{
-    font-size: 25px;
+    font-size: 36px;
     text-align: center;
     color: #ffffff;
-    margin: 130px 0 110px;
+    margin: 108px 0;
 }
 .button-5{
     margin-left: 85px;
 }
 .button-5 a{
     background-color: #ffe18e;
-    font-size: 14px;
+    font-size: 20px;
     color: #3d3c4a;
     text-decoration: none;
     text-transform: uppercase;
@@ -282,28 +318,33 @@ input{
     background-color: #1ab467;
 }
 .CAMERAS-left{
-    font-size: 10px;
+    font-size: 14px;
     margin: 35px 0 0 43px;
     color: #ffc7b0;
     font-weight: 200;
+    font-weight: bold;
+    font-family: open sans;
 }
 .container-4-box5-title{
-    font-size: 25px;
+    font-size: 36px;
     color: #ffffff;
     margin: 20px 0 23px 43px;
+    font-weight: bold;
+    font-family: open sans;
 }
 .container-4-box5-text{
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
-    margin: 26px 0 188px 43px; 
+    margin: 26px 0 163px 43px; 
 }
 .button-6{
 margin-left: 41px;
-margin-top: 80px;
+font-weight: bold;
+font-family: open sans;
 }
 .button-6 a{
 border: 3px solid #ffe18f;
-font-size: 14px;
+font-size: 20px;
 color: #ffffff;
 text-decoration: none;
 text-transform: uppercase;
@@ -320,83 +361,71 @@ font-weight: 200;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1021px;
+    max-width: 1021px;
     margin: 60px 0 72px;
 }
 .Copyright{
     color: #898691;
+    font-family: open sans;
 }   
 .twitter{
     margin-left: 20px;
 }
 
 
-
-
-
-
-
-/*
-body{
-
-    background-color: #3e3b4a;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
-    align-content:center;
-}
-#header{
-    margin-top: 8vh;
-    width: 81.03vw; 
-}
-
-
-.container-1{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
-}
-.menu{
-    background: url(jpg/меню.jpg) no-repeat left center;
-    color: #898691;
-    font-size: 2.5vh;
-    padding-left: 30px;
-    display: flex;
-    align-items: center;
-}
-.header-logo{
-    font-size: 6.5vh;
-    font-weight: 600;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-.header-logo p{
-    font-size: 2.5vh;
-    margin: 0.5vh;
-    font-weight: 400;
-    color: #797681;
-}
-.search{
-    background: url(jpg/поиск.jpg) no-repeat right center;
-    color: #898691;
-    font-size: 2.5vh;
-    padding-right: 30px;
-    display: flex;
-    align-items: center;
+@media (max-width: 976px){
+    .wrapper{
+        width: 768px;
+    }
+    .container-1{
+        flex-basis: 100%;
+    }
+    .container-2{
+        flex-basis: 100%;
+    }
+    .box1{
+        flex-basis: 65%;
+    }
+    .box2{
+        flex-basis: 35%;
+    }
+    .box3{
+        flex-basis: 25%;
+    }
+    .box4{
+        flex-basis: 25%;
+    }
+    .box5{
+        flex-basis: 50%;
+    }
 }
 
-/*Content
-.container-2{
-    display: flex;
-    align-items: stretch;
-    flex-direction: row;
-    border: 1px solid white;
-    background: url(jpg/лампы.jpg);
-    
+
+
+
+@media (max-width: 400px){
+    .wrapper{
+        width: 320px;
+    }
+    .container-1{
+        flex-basis: 100%;
+    }
+    .container-2{
+        flex-basis: 100%;
+    }
+    .box1{
+        flex-basis: 65%;
+    }
+    .box2{
+        flex-basis: 35%;
+    }
+    .box3{
+        flex-basis: 25%;
+    }
+    .box4{
+        flex-basis: 25%;
+    }
+    .box5{
+        flex-basis: 50%;
+    }
 }
-*/
