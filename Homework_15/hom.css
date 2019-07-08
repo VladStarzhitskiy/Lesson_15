@@ -373,59 +373,84 @@ font-weight: 200;
 }
 
 
-@media (max-width: 976px){
+@media (max-width: 768px){
     .wrapper{
         width: 768px;
     }
     .container-1{
         flex-basis: 100%;
+        max-width: 768px;
     }
     .container-2{
         flex-basis: 100%;
+        max-width: 768px;
     }
     .box1{
         flex-basis: 65%;
+        max-width: 500px;
     }
     .box2{
         flex-basis: 35%;
+        max-width: 268px;
     }
     .box3{
         flex-basis: 25%;
+        max-width: 192px;
     }
     .box4{
         flex-basis: 25%;
+        max-width: 192px;
     }
     .box5{
         flex-basis: 50%;
+        max-width: 384px;
+    }
+    .container-5{
+        flex-basis: 100%;
     }
 }
 
 
 
 
-@media (max-width: 400px){
+@media (max-width: 320px){
     .wrapper{
         width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .container-1{
         flex-basis: 100%;
+        display: block;
     }
     .container-2{
         flex-basis: 100%;
+        display: block;
     }
     .box1{
-        flex-basis: 65%;
+        flex-basis: 100%;
+        display: block;
     }
     .box2{
-        flex-basis: 35%;
+        flex-basis: 100%;
+        display: block;
     }
     .box3{
-        flex-basis: 25%;
+        flex-basis: 100%;
+        display: block;
     }
     .box4{
-        flex-basis: 25%;
+        flex-basis: 100%;
+        display: block;
     }
     .box5{
-        flex-basis: 50%;
+        flex-basis: 100%;
+        display: block;
+    }
+    .container-5{
+        flex-basis: 100%;
+        display: block;
     }
 }
